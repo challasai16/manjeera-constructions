@@ -1,0 +1,8 @@
+User-agent: *
+Allow: /sitemap.xml
+
+Disallow:*beta*
+Disallow:*?*
+Disallow:*test*
+Disallow:*pdf*
+Disallow:*admin*

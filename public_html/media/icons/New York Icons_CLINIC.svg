@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 250 250">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke: #000;
+        stroke-miterlimit: 10;
+        stroke-width: 7px;
+      }
+    </style>
+  </defs>
+  <path class="cls-1" d="M133.56,74.98h-17.12v-16.38h-16.38v-17.12h16.38V25.1h17.12v16.38h16.38v17.12h-16.38v16.38Zm-14.82-2.3h12.52v-16.38h16.38v-12.52h-16.38V27.4h-12.52v16.38h-16.38v12.52h16.38v16.38Z"/>
+  <path class="cls-1" d="M163.13,139.11h-30.1v-24.21h30.1v24.21Zm-27.8-2.3h25.5v-19.61h-25.5v19.61Z"/>
+  <path class="cls-1" d="M190.93,139.11h-30.1v-24.21h30.1v24.21Zm-27.8-2.3h25.5v-19.61h-25.5v19.61Z"/>
+  <path class="cls-1" d="M218.74,139.11h-30.1v-24.21h30.1v24.21Zm-27.8-2.3h25.5v-19.61h-25.5v19.61Z"/>
+  <path class="cls-1" d="M163.13,174.69h-30.1v-24.21h30.1v24.21Zm-27.8-2.3h25.5v-19.61h-25.5v19.61Z"/>
+  <path class="cls-1" d="M190.93,174.69h-30.1v-24.21h30.1v24.21Zm-27.8-2.3h25.5v-19.61h-25.5v19.61Z"/>
+  <path class="cls-1" d="M218.74,174.69h-30.1v-24.21h30.1v24.21Zm-27.8-2.3h25.5v-19.61h-25.5v19.61Z"/>
+  <path class="cls-1" d="M163.13,210.28h-30.1v-24.21h30.1v24.21Zm-27.8-2.3h25.5v-19.61h-25.5v19.61Z"/>
+  <path class="cls-1" d="M190.93,210.28h-30.1v-24.21h30.1v24.21Zm-27.8-2.3h25.5v-19.61h-25.5v19.61Z"/>
+  <path class="cls-1" d="M218.74,210.28h-30.1v-24.21h30.1v24.21Zm-27.8-2.3h25.5v-19.61h-25.5v19.61Z"/>
+  <path class="cls-1" d="M218.74,224.87H29.64V101.3H218.74v123.57Zm-186.8-2.3H216.43V103.6H31.94v118.97Z"/>
+  <path class="cls-1" d="M236,240.92H14v-18.35H236v18.35Zm-219.7-2.3H233.7v-13.74H16.3v13.74Z"/>
+  <rect class="cls-1" x="59.68" y="102.45" width="2.3" height="121.27"/>
+  <path class="cls-1" d="M113.64,224.87h-36.29V114.9h36.29v109.97Zm-33.99-2.3h31.69V117.2h-31.69v105.37Z"/>
+  <rect class="cls-1" x="90.38" y="134.88" width="24.12" height="2.3" transform="translate(-58.05 79.08) rotate(-33.48)"/>
+  <rect class="cls-1" x="90.38" y="158.66" width="24.12" height="2.3" transform="translate(-71.17 83.03) rotate(-33.48)"/>
+  <rect class="cls-1" x="90.38" y="182.44" width="24.12" height="2.3" transform="translate(-84.28 86.97) rotate(-33.48)"/>
+  <rect class="cls-1" x="90.38" y="206.23" width="24.12" height="2.3" transform="translate(-97.4 90.92) rotate(-33.48)"/>
+  <path class="cls-1" d="M225.8,104.11H24.19v-31.43h61.2v16.03h79.2v-16.03h61.2v31.43Zm-199.31-2.3H223.5v-26.83h-56.6v16.03H83.1v-16.03H26.49v26.83Z"/>
+  <path class="cls-1" d="M166.9,91.01H83.1V9.08h83.8V91.01Zm-81.5-2.3h79.2V11.38H85.4V88.71Z"/>
+</svg>

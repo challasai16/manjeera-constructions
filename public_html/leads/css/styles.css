@@ -1,0 +1,243 @@
+   
+  @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;700&display=swap');
+  *, ::after, ::before {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+  }
+  h1, h2, h3, h4, h5, h6, span, strong, tr, td, p, input, select, option, ::placeholder, li, a {
+      font-family: 'Rubik', sans-serif;
+  }
+  img {
+      width: 100%;
+  }
+  ul {
+      list-style: none;
+  }
+/* leads page css starts here  */
+.lead-access {
+    width: 100%;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    position: fixed;
+    background-color: #fff;
+    z-index: 10000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.3s ease;
+}
+.lead-access.active {
+    opacity: 0;
+    z-index: -1;
+    transform: scale(0);
+}
+.lead-access-container {
+    width: 40vw;
+    margin: 0 auto;
+    box-shadow: 0px 0px 30px 10px rgba(0, 0, 0, 0.1);
+    padding: 5rem 3rem;
+    border-radius: 30px;
+    
+}
+.access-logo {
+    text-align: center;
+    border-bottom: 1px solid rgb(220, 220, 220);
+    padding-bottom: 1.5rem;
+    margin-bottom: 3rem;
+}
+.lead-access-container img {
+    width: 40%;
+    text-align: center;
+    box-shadow: 0px 0px 30px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    padding: 0.3rem;
+}
+.lead-access-container input {
+    padding:  1rem;
+    display: block;
+    width: 100%;
+    border-radius: 0;
+    font-size: clamp(1rem, 1.5vw, 1.1rem);
+    margin: 2rem 0;
+    border: 0;
+    background-color: #f2f2f2;
+    border-radius: 6px;
+}
+.lead-access-container input.active {
+    border: 1px solid red;
+}
+.lead-access-container button {
+    width: 100%;
+    background-color: black;
+    margin-top: 0.6rem;
+    cursor: pointer;
+    color: white;
+    padding: 1rem;
+    border: 0;
+    font-size: clamp(0.9rem, 0.9vw, 1.1rem);
+    transition: all 0.3s ease;
+    border-radius: 6px;
+}
+.lead-access-container button:hover {
+    background-color: var(--orange-color);
+    color: white;
+}
+.lead-access-container p {
+    padding: 1rem 0;
+    color: red;
+    text-align: center;
+}
+.lead-access-manu {
+             z-index: -1 !important;
+             display: none !important;
+         }
+#headerTable{
+    /*display: block;*/
+}
+/* leads page css end here  */
+
+ .addCategory {
+          padding: 2rem 4rem;
+      }
+        table{
+            border: 1px solid black;
+            border-collapse: collapse;
+            margin-top: 50px;
+            width: 100%;
+            text-align: center;
+            padding: 04px;
+         }
+         thead {
+             background-color: #971419;
+             color: white;
+             padding: 1rem;
+         }
+         thead tr {
+             font-size: 1rem;
+         }
+        #startfilter,  #endfilter{
+            font-size: 1rem;
+            padding: 0.2rem;
+        }
+         table td{
+            border: 1px solid black;
+            padding: 04px;
+         }
+        
+        tbody tr td {
+            font-size: 0.9rem;
+            padding: 0.3rem 1rem;
+        }
+        
+        a {
+           
+            text-decoration: none;
+            color: black;
+            cursor: pointer;
+         }
+         a:hover,.active{
+            color: Orange;
+            font-weight: bolder;
+         }
+         .filter{
+             margin: 0px;
+             height: 50px;
+             display: flex;
+             align-items: center;
+             gap: 1rem;
+         }
+         button{
+             /*margin: 50px auto;*/
+         }
+         #date-submit {
+             background-color: #971419;
+             color: white;
+             font-size: 1rem;
+             padding: 0.4rem 1rem;
+             border: 0;
+             margin-left: 2rem;
+         }
+         #btnExport {
+             background-color: #971419;
+             color: white;
+             font-size: 1rem;
+             padding: 0.4rem 1.5rem;
+             border: 0;
+             margin: 3rem 0;
+             cursor: pointer;
+         }
+         .lead-access-manu {
+             z-index: -1 !important;
+             display: none !important;
+         }
+        
+         .logout:hover {
+             color: white;
+             background-color: black;
+         }
+         .leads-nav {
+             width: 100%;
+             border-top: 1px solid grey;
+             border-bottom: 1px solid grey;
+             display: flex;
+             align-items: center;
+         }
+         
+         .leads-nav ul {
+             display: flex;
+             padding-left: 1rem;
+         }
+         .leads-nav ul li a {
+             font-size: 0.95rem;
+             transition: all 0.4s ease-in-out;
+             padding: 0.3rem 1rem;
+         }
+         .leads-nav ul li a:hover {
+             color: white;
+             background-color: #971419;
+             font-weight: 400;
+         }
+         .logo-leads {
+             width: 25%;
+         }
+          .logo-leads img {
+              width: 80%;
+          }
+         .leads-nav-list {
+             width: 75%;
+         }
+         .leads-nav-list ul {
+             width: 100%;
+             justify-content: space-around;
+         }
+          .logout {
+             font-size: 0.9rem !important;
+             margin: 0px 2rem;
+             border: 1px solid #971419;
+             transition: all 0.4s ease-in-out;
+             padding: 0.3rem 1rem;
+         }
+         
+         .careers-table tr td:nth-child(1){
+             width: 5% !important;
+         }
+         .careers-table tr td:nth-child(2){
+             width: 10% !important;
+         }
+         .careers-table tr td:nth-child(3){
+             width: 15% !important;
+         }
+         .careers-table tr td:nth-child(4){
+             width: 15% !important;
+         }
+         .careers-table tr td:nth-child(5){
+             width: 20% !important;
+         }
+         .careers-table tr td:nth-child(6){
+             width: 25% !important;
+         }
+         .careers-table tr td:nth-child(7){
+             width: 10% !important;
+         }
